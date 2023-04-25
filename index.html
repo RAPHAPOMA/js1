@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 30%;
+            padding-top: 50px;
+            margin: auto
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+        }
+        ul li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .error{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p style="color: red; text-align: center;" class="error">Please fill in the form</p>
+        <div class="header">
+            <input type="text" class="inputText">
+            <button class="submit" type="submit">Submit</button>
+        </div>
+    </form>
+    <ul class="grocceryList">
+
+    </ul>
+    <script src="/main.js"></script>
+</body>
+</html>
